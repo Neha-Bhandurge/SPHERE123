@@ -48,13 +48,13 @@ const Marsgeometry = new THREE.SphereBufferGeometry(.4, 64, 64)
 
 const Jupitergeometry = new THREE.SphereBufferGeometry(.6, 64, 64)
 
-const Saturngeometry = new THREE.SphereBufferGeometry(.25, 64, 64)
+const Saturngeometry = new THREE.SphereBufferGeometry(.4, 64, 64)
 
 const Uranusgeometry = new THREE.SphereBufferGeometry(.45, 64, 64)
 
 const Neptunegeometry = new THREE.SphereBufferGeometry(.4, 64, 64)
 
-const Saturnringgeometry = new THREE.SphereBufferGeometry(.5, 64, 64)
+const Saturnringgeometry = new THREE.SphereBufferGeometry(.5, 0.70, 60)
 
 // Materials
 
