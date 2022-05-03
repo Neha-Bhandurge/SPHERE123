@@ -28,7 +28,7 @@ const normalTextureNeptune = textureLoader.load('./neptune.jpeg')
 
 const normalTextureUranus = textureLoader.load('./uranus.jpeg')
 
-const normalTextureSaturnring = textureLoader.load('./saturnring.jpeg')
+const normalTextureSaturnring = textureLoader.load('./Saturn ring.jpeg')
 
 const canvas = document.querySelector('canvas.webgl')
 
