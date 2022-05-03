@@ -15,34 +15,15 @@ const Sunmaterial = new THREE.MeshStandardMaterial()
 
 const THREE.MeshStandardMaterial()
 Neptunematerial.roughness = 0.4
-Neptunematerial.opacity = 0.9
-Neptunematerial.map = normaltextureNeptune;
-const sphereNeptune = new THREE.Mesh(Neptunegeometry,Neptunematerial)
 
 
-const SaturnMaterial = new THREE.MeshStandardMaterial()
-SaturnMaterial.opacity = 0.9
-SaturnMaterial.roughness = 0.4
-SaturnMaterial.map = normaltextureSaturn;
-const sphereSaturn = new THREE.Mesh(Saturngeometry,SaturnMaterial)
-
+const 
 const SaturnringMaterial = new THREE.MeshBasicMaterial()
 SaturnringMaterial.map = normaltextureSaturnring;
 const sphereSaturnring = new THREE.Mesh(Saturnringgeometry,SaturnringMaterial)
 
 
 // Mesh
-const sphere = new THREE.Mesh(Sungeometry,Sunmaterial)
-scene.add(sphere)
-scene.add(sphereEarth)
-scene.add(sphereSaturn)
-sphereSaturn.add(sphereSaturnring)
-scene.add(sphereMercury)
-scene.add(sphereVenus)
-scene.add(sphereMars)
-scene.add(sphereJupiter)
-scene.add(sphereUranus)
-scene.add(sphereNeptune)
 
 
 const pointLight = new THREE.PointLight(0xffffff, 2)
@@ -144,7 +125,6 @@ const tick = () =>
     sphere.rotation.z = 0.5 * elapsedTime
 
     sphere.rotation.y += .5 * (targetX - sphere.rotation.y)
-    sphere.rotation.x += .05 * (targetY - sphere.rotation.x)
+0getY - sphere.rotation.x)
     sphere.position.z += -.05 * (targetY - sphere.rotation.x)
             
-    
