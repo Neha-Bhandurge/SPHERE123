@@ -12,7 +12,6 @@ const normalTextureVenus = textureLoader.load('./venus.jpeg')
 const normalTextureNeptune = textureLoader.load('./neptune.jpeg')
 const normalTextureUranus = textureLoader.load('./uranus.jpeg')
 const normalTextureSaturnring = textureLoader.load('./saturnring.jpeg')
-// const normalTexturestar = texture.load('./star.png')
 
 const canvas = document.querySelector('canvas.webgl')
 
@@ -115,8 +114,7 @@ scene.add(sphereNeptune)
 
 
 const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
-
+scene.background = loader.load( './star.png' );
 
 
 const pointLight = new THREE.PointLight(0xffffff, 2)
