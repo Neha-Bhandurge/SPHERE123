@@ -111,8 +111,9 @@ scene.add(sphereUranus)
 scene.add(sphereNeptune)
 
 
-var loader = new THREE.TextureLoader();
-scene.background = loader.load( '/star.png' );
+const loader = new THREE.TextureLoader();
+scene.background = loader.load( 'https://www.freepik.com/premium-vector/star-sky-space-stars-background-glitter-particles_8934371.htm' );
+
 
 
 const pointLight = new THREE.PointLight(0xffffff, 2)
