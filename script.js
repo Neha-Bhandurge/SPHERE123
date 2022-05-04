@@ -18,8 +18,8 @@ const canvas = document.querySelector('canvas.webgl')
 // Scene
 const scene = new THREE.Scene()
 
-const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
+// const loader = new THREE.TextureLoader();
+// scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
 
 const Sungeometry = new THREE.SphereBufferGeometry(.9, 64, 64)
 const Earthgeometry = new THREE.SphereBufferGeometry(.5, 64, 64)
