@@ -112,7 +112,7 @@ scene.add(sphereNeptune)
 
 
 const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'https://www.freepik.com/premium-vector/star-sky-space-stars-background-glitter-particles_8934371.htm' );
+scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
 
 
 
