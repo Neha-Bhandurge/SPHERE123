@@ -12,6 +12,7 @@ const normalTextureVenus = textureLoader.load('./venus.jpeg')
 const normalTextureNeptune = textureLoader.load('./neptune.jpeg')
 const normalTextureUranus = textureLoader.load('./uranus.jpeg')
 const normalTextureSaturnring = textureLoader.load('./saturnring.jpeg')
+const normalTexturestar = texture.load('./star.png')
 
 const canvas = document.querySelector('canvas.webgl')
 
