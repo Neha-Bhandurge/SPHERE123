@@ -112,20 +112,6 @@ scene.add(sphereNeptune)
 
 const loader = new THREE.TextureLoader();
 scene.background = loader.load( '/star.png' );
-// const texture = THREE.ImageUtils.loadTexture( 'star.png' );
-// const backgroundMesh = new THREE.Mesh(
-//             // new THREE.PlaneGeometry(2, 2, 0),
-//             new THREE.MeshBasicMaterial({
-//                 map: texture
-//             }));
-//         backgroundMesh .material.depthTest = false;
-//         backgroundMesh .material.depthWrite = false;
-
-//         // Create your background scene
-// const backgroundScene = new THREE.Scene();
-// const backgroundCamera = new THREE.Camera();
-// backgroundScene .add(backgroundCamera );
-// backgroundScene .add(backgroundMesh );
 
 
 const pointLight = new THREE.PointLight(0xffffff, 2)
