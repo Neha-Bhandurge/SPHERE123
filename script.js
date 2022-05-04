@@ -112,9 +112,11 @@ scene.add(sphereJupiter)
 scene.add(sphereUranus)
 scene.add(sphereNeptune)
 
-
 const loader = new THREE.TextureLoader();
-scene.background = loader.load( './star.png' );
+scene.background = loader.load('./star.png' , function(texture)
+            {
+             scene.background = texture;  
+            });
 
 
 const pointLight = new THREE.PointLight(0xffffff, 2)
